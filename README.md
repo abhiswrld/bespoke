@@ -6,7 +6,7 @@ master resume + JD → matched bullets → LaTeX → PDF, plus a skills-gaprepor
 
 ## Roadmap
 
-- [ ] Master resume schema (YAML)
+- [x] Master resume schema (YAML)
 - [ ] JD parsing → structured requirements
 - [ ] Skill matching + gap report
 - [ ] .tex emitter (Jake's Resume format)
