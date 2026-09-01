@@ -1,0 +1,43 @@
+# Example of the bespoke master resume schema.
+
+contact:
+  name: Jane Doe
+  email: jane@example.com
+  links:
+    - label: GitHub
+      url: https://github.com/janedoe
+
+education:
+  - school: State University
+    degree: B.S. Computer Science
+    start: Sep 2023
+    end: May 2025
+    gpa: "3.80"
+    honors: ["Dean's List"]
+
+skills:
+  "Languages": [Python, Go]
+  "Tools": [Docker, Git]
+
+projects:
+  - name: ExampleApp
+    subtitle: A Tiny Demo Project
+    link: https://github.com/janedoe/exampleapp
+    tech: [Python, FastAPI]
+    start: Jun 2025
+    end: Jul 2025
+    bullets:
+      - id: exampleapp-api
+        text: "Built a REST API with FastAPI serving 100 requests per second."
+        tags: [fastapi, rest, python]
+
+experience:
+  - role: Teaching Assistant
+    org: State University
+    location: Anytown, USA
+    start: Jan 2024
+    end: May 2024
+    bullets:
+      - id: ta-grading
+        text: "Graded assignments for 60 students and held weekly office hours."
+        tags: [communication]
